@@ -118,42 +118,22 @@ function l_click(x){
 function p_card_hover(x){
 
     if (x.id == 'p1'){
-        p_video.src = 'video/p_v_1.mp4'
+        p_video.src = '/video/p_v_1.mp4'
     }
     else if(x.id == 'p2'){
-        p_video.src = 'video/p_v_2.mp4'
+        p_video.src = '/video/p_v_2.mp4'
     }
     else if(x.id == 'p3'){
-        p_video.src = 'video/p_v_3.mp4'
+        p_video.src = '/video/p_v_3.mp4'
     }
     else if(x.id == 'p4'){
-        p_video.src = 'video/p_v_4.mp4'
+        p_video.src = '/video/p_v_4.mp4'
     }
     else if(x.id == 'p5'){
-        p_video.src = 'video/p_v_5.mp4'
+        p_video.src = '/video/p_v_5.mp4'
     }
 
 
 }
-
-// if(window.innerWidth < 575){
-//     full_content.remove()
-// }
-
-// window.addEventListener('resize', (evt)=>{
-//     var cacheDom = ""
-
-//     if(evt.currentTarget.innerWidth < 575){
-//         full_content.remove()
-//         full_content.append("<h1> hello </h1>")
-
-
-//     }
-//     else{
-//         full_content.append("<h1> hello </h1>")
-
-//         full_content.append(cacheDom)
-//     }
-// })
 
 
